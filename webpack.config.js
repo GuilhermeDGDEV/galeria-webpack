@@ -44,5 +44,6 @@ module.exports = {
             test: /.(ttf|otf|eot|svg|woff(2)?)$/,
             use: ['file-loader']
         }]
-    }
+    },
+    ignoreWarnings: [/./]
 };
